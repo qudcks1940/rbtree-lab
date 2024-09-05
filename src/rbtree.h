@@ -2,6 +2,7 @@
 #define _RBTREE_H_
 
 #include <stddef.h>
+#define SENTINEL
 
 typedef enum { RBTREE_RED, RBTREE_BLACK } color_t;
 
